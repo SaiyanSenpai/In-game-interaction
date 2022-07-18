@@ -10,6 +10,7 @@ UserInputService = game:GetService("UserInputService")
 function dist(P1,P2)
     return (P1-P2).magnitude
 end
+
 for z,npc in pairs(NPCs:GetChildren()) do
     if not npc:IsA("Model") then
         return
