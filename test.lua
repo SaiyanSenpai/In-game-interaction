@@ -19,4 +19,8 @@ for z,npc in pairs(NPCs:GetChildren()) do
     
 end
 
-UserInputService.InputBegan()
+UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
+    if input.KeyCode == Enum.KeyCode.R then
+        
+    end
+end)
